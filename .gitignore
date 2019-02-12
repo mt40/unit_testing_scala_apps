@@ -1,0 +1,30 @@
+### SBT ###
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+
+### Scala ###
+*.class
+*.log
+
+
+### Intellij ###
+# User-specific stuff:
+.idea/*
+!/.idea/runConfigurations
+/out/
+
+
+### Spark ###
+spark-warehouse/
+
+### Mac ###
+.DS_Store
+
